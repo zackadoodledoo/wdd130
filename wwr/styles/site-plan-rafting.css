@@ -50,6 +50,9 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   text-align: center;
 }
+h4 {
+  color: black;
+}
 hr {
   height: 3px;
   margin: 35px 0;
@@ -68,6 +71,21 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+}
+footer {
+  color:#07B5FA;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+  color:whitesmoke;
+
+}
+footer p {
+  font-size: 1.2em;
 }
 .colors {
   width: 100%;
@@ -112,12 +130,15 @@ nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
+  text-align: center;
   padding: 10px;
+  color: black;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
+  color:#F0861D;
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
@@ -163,4 +184,55 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+#hero-msg h1 {
+  text-align: center;
+}
+#hero-msg h1 {
+  text-align: center;
+}
+.button-box {
+  background-color: rgb(0, 4, 255);
+  color: black;
+  text-align: center;
+}
+main section {
+  background-color: #07B5FA;
+  text-align:center;
+}
+.home-title {
+  background-color: #07B5FA;
+  color: white;
+}
+.book {
+  background-color: #1791EE;
+  color: green;
+  text-decoration: none;
+}
+.join {
+  background-color: #1791EE;
+  color: green;
+  text-decoration: none;
+}
+.book:hover {
+  background-color: white;
+  color:#1791EE
+}
+.join:hover {
+  background-color: white;
+  color: green;
+}
+.msg h2 {
+  background-color: white;
+  color:#1791EE
+}
+.msg p {
+  background-color: #1791EE;
+  color: white;
+}
+.logo {
+  width: 80px;
+}
+.icon {
+  width: 80px;
 }

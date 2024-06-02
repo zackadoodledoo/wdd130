@@ -4,6 +4,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #2E86AB
     font-family: BioRhyme, Garamond, Georgia, serif;
 }
+h2 {
+    margin: 0;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -16,6 +19,7 @@ nav a {
     text-decoration: none;
     color: #2E86AB;
     text-align: center;
+    padding: 35px;
 }
 nav a:hover {
     color: #D6EFFF;
@@ -30,12 +34,18 @@ nav a:hover {
 .button-box {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 main section {
     text-align: center;
 }
 body {
     background-color: #F6F5AE;
     font-family: Besley, Geneva, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #03256C;
@@ -44,6 +54,9 @@ header {
     text-decoration: none;
     color:#2E86AB;
     background-color: #03256C; 
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     color:#F6F5AE;
@@ -51,8 +64,12 @@ header {
 }
 .join {
     text-decoration: none;
-    color: #2E86AB;
-    background-color: black;
+    background-color: #2E86AB;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-size: 18px;
 }
 .join:hover {
     color:#F6F5AE;
@@ -60,16 +77,21 @@ header {
 }
 .msg {
     background-color: #2E86AB;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color:#D6EFFF;
 }
 .msg p {
     color: #F6F5AE;
+    padding-bottom: 15px;
 }
 footer {
     color: #03256C;
     background-color: #2E86AB;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     text-decoration: none;
@@ -85,7 +107,29 @@ footer p {
 }
 .home-title {
     color: #2E86AB;
+    font-family: 'Besley', Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0; 
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px black;
 }

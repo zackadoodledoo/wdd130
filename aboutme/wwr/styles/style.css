@@ -34,6 +34,9 @@ nav a:hover {
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
 }
+#hero-img {
+    width: 100%;
+}
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
@@ -44,14 +47,14 @@ nav a:hover {
     grid-column: 2/1;
     margin-top: 100px;
 }
-#hero-msg h1 {
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
     color: white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
 }
-#hero-msg h4 {
-    text-align: center;
-    color: white;
-}
+
 .button-box {
     text-align: center;
 }
@@ -77,28 +80,16 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
-.book {
+.book, .join {
     text-decoration: none;
     color:#2E86AB;
     background-color: #03256C; 
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-}
-.book:hover {
-    color:#F6F5AE;
-    background-color: black;
-}
-.join {
-    text-decoration: none;
-    background-color: #2E86AB;
-    color: black;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
     font-size: 18px;
 }
-.join:hover {
+.book:hover, .join:hover{
     color:#F6F5AE;
     background-color: black;
 }
@@ -116,6 +107,7 @@ header {
 .msg p {
     color: #F6F5AE;
     padding-bottom: 15px;
+    font-size: .8em;
 }
 footer {
     color: #03256C;
@@ -130,7 +122,7 @@ footer a {
     text-decoration: none;
     color:#03256C; 
 }
-footer a:hover {
+footer p a:hover {
     text-decoration: underline;
     background-color: black;
     color: #F6F5AE;
@@ -138,11 +130,21 @@ footer a:hover {
 footer p {
     font-size: 1.2em;
 }
+footer .social img {
+    padding-top: 15px;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+}
 .home-title {
     color: #2E86AB;
     font-family: 'Besley', Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
+}
+.logo {
+    width: 80px;
 }
 .icon {
     width: 80px;
@@ -190,11 +192,26 @@ footer .social img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6F7364;
 }
+.rafting{
+    float: left;
+    width: 500px;
+    margin-right: 20px;
+    box-shadow: 5px 5px 10px #6F7364;
+}
+.conclude{
+    float: right;
+    width: 600px;
+    margin-right: 20px;
+    box-shadow: 5px 5px 10px #6F7364;
+}
 #background {
     grid-column: 1/11;
     grid-row: 4/9;
 }
-
+#background {
+    height: 725 px;
+    background-color: white;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

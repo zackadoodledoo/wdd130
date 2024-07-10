@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2E86AB
+    font-family: BioRhyme, Garamond, Georgia, serif;
+    font-size: 40px;
+}
+header {
+    background-color: #c78283;
+    color: #009fb7
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+p {
+    display: grid;
+    text-align: right;
+    grid-columns: 3/4;
+}
+body {
+    background-color: #F6F5AE;
+    font-family: "Dancing Script", Helvetica, sans-serif;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+.logo-box {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: #2E86AB;
+    text-align: center;
+    padding: 35px;
+}
+nav a:hover {
+    color: #119cf2;
+    background-color: #fff4e4; 
+}
+footer {
+    color: #c78283;
+    background-color: #fff4e4;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    text-decoration: none;
+    color:#03256C; 
+}
+footer p a:hover {
+    text-decoration: underline;
+    background-color: #f277e8;
+    color: #F6F5AE;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+

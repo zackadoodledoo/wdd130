@@ -16,6 +16,24 @@ p {
     text-align: right;
     grid-columns: 3/4;
 }
+.hero-img {
+  width: 100%;
+}
+.home-paragraph-header-one{
+  float: right;
+}
+.home-paragraph-one {
+  float: right;
+}
+.home-img-one-left {
+  float: left;
+}
+.home-img-two-left{
+  float: left;
+}
+.home-paragraph-header-two{
+  float: right;
+}
 body {
     background-color: #F6F5AE;
     font-family: "Dancing Script", Helvetica, sans-serif;
@@ -139,6 +157,40 @@ body {
     margin-left: 0.5em;
   }
 
+.home-paragraph-right-one{
+  position: static;
+  float: left;
+  padding-top: 100px;
+}
+.faq-header-1{
+  position: static;
+  float: left;
+  
+}
+.faq-paragraph-1{
+  position: static;
+  float: left;
+}
+.faq-header-2{
+  position:relative;
+  float: left;
+}
+.faq-paragraph-2{
+  position: relative;
+  float: left;
+}
+.faq-paragraph-3{
+  position: fixed;
+}
 
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media .content {
+  flex: 1;
+  padding: 10px;
+}
 
 

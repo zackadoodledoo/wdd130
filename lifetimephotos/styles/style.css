@@ -34,6 +34,9 @@ p {
 .home-paragraph-header-two{
   float: right;
 }
+.second-img {
+  align-content: right;}
+
 body {
     background-color: #F6F5AE;
     font-family: "Dancing Script", Helvetica, sans-serif;

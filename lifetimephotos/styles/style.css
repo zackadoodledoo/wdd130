@@ -35,8 +35,17 @@ p {
   float: right;
 }
 .second-img {
-  align-content: right;}
-
+  align-content: right;
+}
+.faq-header-3 {
+  text-align: center;
+}
+.faq-header-1 {
+  text-align: center;
+}
+.faq-header-5 {
+  text-align: center;
+}
 body {
     background-color: #F6F5AE;
     font-family: "Dancing Script", Helvetica, sans-serif;
@@ -87,7 +96,18 @@ footer p {
 footer .social img {
     padding-top: 15px;
 }
-
+.firstDiv {
+    text-align: left;
+}
+.firstDiv > img {
+    float: left;
+}
+.secondDiv {
+    text-align: right;
+}
+.secondDiv > img {
+    float: right;
+}
 /* Reset default margin and padding */
 * {
     margin: 0;
